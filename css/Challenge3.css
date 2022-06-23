@@ -73,6 +73,8 @@ body {
     float: right;
     display: block;
     padding: 40px;
+    font-size: 30px;
+    cursor: pointer;
 }
 
 /* Content */
@@ -104,8 +106,22 @@ body {
 }
 
 #content .container .btn {
+    background-color: #fff;
     border: none;
     margin-top: 20px;
+}
+
+#content .container .btn a {
+    text-decoration: none;
+    display: block;
+    color: black;
+    padding: 14px 16px;
+    cursor: pointer;
+}
+
+#content .container .btn a:hover {
+    letter-spacing: 0.2em;
+    transition: 0.3s;
 }
 
 /* Footer */
