@@ -1,0 +1,193 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&family=Raleway&display=swap');
+
+/* Reset */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+
+body {
+    font-family: 'Raleway', sans-serif;
+    color: #fff;
+    overflow: hidden;
+}
+
+/* Z-index */
+    footer {
+        z-index: 1;
+    }
+
+    #content h1 {
+        z-index: 800;
+    }
+
+    a {
+        z-index: 900;
+    }
+
+/* Video */
+
+#background-video {
+    height: 100vh; /* Toute la hauteur */
+    width: 100vw; /* Toute la largeur */
+    object-fit: cover; 
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    z-index: -2;
+}
+
+/* Blue */
+.blue {
+    width: 100%;
+    height: 100%;
+    padding: 150px;
+    /* border: 2px solid red; */
+
+    position: absolute;
+    top: 0;
+    background-color: darkturquoise;
+    opacity: 0.4;
+    z-index: -1;
+}
+
+/* Container */
+#navbar .container {
+    /* border: 2px solid red; */
+    text-align: center;
+    height: 100px;
+}
+
+#navbar .container h3 {
+    float: left;
+    padding: 40px;
+}
+
+#navbar .container i {
+    float: right;
+    display: block;
+    padding: 40px;
+}
+
+/* Content */
+#content {
+    display: flex;
+    flex-direction: column;
+    height: 80vh;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+#content .container {
+    padding: 40px;
+    /* border: 2px solid red; */
+}
+
+#content .container p {
+    /* border: 2px solid red; */
+    margin-right: 50%;
+}
+
+#content .container h1 {
+    font-size: 75px;
+}
+    
+#content .container h2 { 
+    font-size: 60px; 
+    margin-bottom: 20px;
+}
+
+#content .container .btn {
+    border: none;
+    margin-top: 20px;
+}
+
+/* Footer */
+
+#foot_end {
+    position: absolute;
+    bottom: 0;
+    width:100%;
+    height: 350px;
+    margin: 20px;
+    padding: 20px;
+}
+#foot_end .btn a {
+    display: block;
+    text-decoration: none;
+    color: #333;
+    padding: 16px 20px;
+    background-color: #fff;
+    border: none;
+}
+
+#foot_end .btn a:hover {
+    cursor: pointer;
+    letter-spacing: 0.2em;
+    transition: 0.3s;
+}
+
+#foot_end ul li {
+    list-style: none;
+}
+
+#foot_end i {
+    color: #fff;
+    padding: 20px;
+    text-decoration: none;
+    display: block;
+}
+
+/* Position icon */
+#foot_end .facebook {
+    position: absolute;
+    bottom: 0;
+}
+#foot_end .twitter {
+    position: absolute;
+    left: 50px;
+    bottom: 0;
+}
+#foot_end .instagram {
+    position: absolute;
+    left: 100px;
+    bottom: 0;
+}
+
+/* Animation icon */
+#foot_end .facebook:hover {
+    bottom: 15px;
+    cursor: pointer;
+    transition: 2s;
+}
+#foot_end .twitter:hover {
+    bottom: 15px;
+    cursor: pointer;
+    transition: 2s;
+}
+#foot_end .instagram:hover {
+    bottom: 15px;
+    cursor: pointer;
+    transition: 2s;
+}
+
+/* Object-fit
+ La propriété CSS object-fit définit la façon dont le contenu d'un élément remplacé (<img> ou <video> par exemple) doit s'adapter à son conteneur en utilisant sa largeur et sa hauteur. */
+
+    /* z-index
+La propriété z-index définit le « z-order » (NdT : « ordre z » n'est pas usité) d'un élément positionné et de ses éléments enfants ou de ses éléments flexibles. Lorsque des éléments se chevauchent, le z-order détermine l'ordre des différentes couches que formeront les éléments. Généralement, un élément couvrira un autre élément si sa valeur de z-index est supérieure à celle du deuxième élément. */
+
+/* @keyframes
+La règle @keyframes permet aux auteurs de définir les étapes qui composent la séquence d'une animation CSS. Cela permet de contrôler une animation plus finement que ce qu'on pourrait obtenir avec les transitions. */
+
+/* animation
+La propriété animation est une propriété raccourcie qui permet de d'appliquer une animation entre des styles. */
+
+/* animation-name
+La propriété animation-name définit une liste d'animations qui doivent être appliquées à l'élément ciblé. Chaque nom indique une règle @ @keyframes qui définit les valeurs des propriétés pour la séquence. */
